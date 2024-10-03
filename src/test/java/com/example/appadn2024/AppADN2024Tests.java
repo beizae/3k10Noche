@@ -1,10 +1,10 @@
-package com.example.demoapp;
+package com.example.appadn2024;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DemoAppApplicationTests {
+class AppADN2024Tests {
 
 	@Test
 	void contextLoads() {

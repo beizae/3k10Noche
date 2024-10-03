@@ -1,6 +1,6 @@
-package com.example.demoapp.presentation.advice;
+package com.example.appadn2024.presentation.advice;
 
-import com.example.demoapp.domain.dtos.ErrorDto;
+import com.example.appadn2024.Dominio.dtos.ErrorDto;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;

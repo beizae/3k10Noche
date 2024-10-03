@@ -1,14 +1,14 @@
-package com.example.demoapp;
+package com.example.appadn2024;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DemoAppApplication {
+public class AppADN_2024 {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DemoAppApplication.class, args);
-		System.out.println("La alicación está arriba");
+		SpringApplication.run(AppADN_2024.class, args);
+		System.out.println("OK - La aplicación ha iniciado...");
 	}
 
 }

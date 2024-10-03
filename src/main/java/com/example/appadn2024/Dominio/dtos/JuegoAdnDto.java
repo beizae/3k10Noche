@@ -1,4 +1,4 @@
-package com.example.demoapp.domain.dtos;
+package com.example.appadn2024.Dominio.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -9,8 +9,6 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class PersonaShortDto {
-    private String nombre;
-    private String apellido;
-    private String provincia;
+public class JuegoAdnDto {
+    private String adn;
 }

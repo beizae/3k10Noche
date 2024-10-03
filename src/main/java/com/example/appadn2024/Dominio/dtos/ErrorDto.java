@@ -1,4 +1,4 @@
-package com.example.demoapp.domain.dtos;
+package com.example.appadn2024.Dominio.dtos;
 
 import lombok.*;
 

@@ -42,7 +42,7 @@ dependencies {
 
 	annotationProcessor 'org.projectlombok:lombok', 'org.mapstruct:mapstruct-processor:1.5.5.Final'
 
-	//OPEN API
+	//OPEN API para documentar la api
 	implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.1.0'
 
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'

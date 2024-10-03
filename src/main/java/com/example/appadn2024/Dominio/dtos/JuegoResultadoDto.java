@@ -1,19 +1,20 @@
-package com.example.demoapp.domain.dtos;
+package com.example.appadn2024.Dominio.dtos;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.Date;
+
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
 @Setter
-public class DomicilioDto {
-
+public class JuegoResultadoDto {
     private Long id;
-    private String calle;
-    private int numero;
-    private String provincia;
+    private String adn;
+    private Date fecha;
+    private boolean esmarciano;
 
 }
