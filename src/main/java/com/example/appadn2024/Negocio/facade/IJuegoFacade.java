@@ -7,7 +7,7 @@ public interface IJuegoFacade {
 
     JuegoResultadoDto crear(JuegoResultadoDto nuevoJuegoDto);
 
-    JuegoResultadoDto getAllDataById(Long id);
+
 
 
 

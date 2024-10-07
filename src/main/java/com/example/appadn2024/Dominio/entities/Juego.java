@@ -10,11 +10,7 @@ import java.util.Date;
 @AllArgsConstructor
 @Getter
 @Setter
-public class Juego {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+public class Juego extends Base {
 
     private String adn;
     private Date fecha;

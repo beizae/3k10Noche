@@ -19,18 +19,12 @@ public class JuegoFacade implements IJuegoFacade {
     @Override
     public JuegoResultadoDto crear(JuegoResultadoDto nuevoJuegoDto) {
         //Convertir el Dto en una Entidad
-        var newjuego = juegoMapper.personaFullDtoToPersona(nuevoJuegoDto);
+        var newjuego = juegoMapper.JuegoResultadoDtoToJuego(nuevoJuegoDto);
         //Guardar la entidad
         var juegoGuardado = juegoService.crear(newjuego);
         //Devolver la nueva entida convertida en Dto
-        return juegoMapper.personaToPersonaFullDto(juegoGuardado);
+        return juegoMapper.juegoToJuegoResultado(juegoGuardado);
     }
 
-    @Override
-    public JuegoResultadoDto getAllDataById(Long id) {
-        //Obtener la juego
-        var juego = juegoService.getById(id);
-        //Devolver la juego convertida al Dto con todos los datos
-        return juegoMapper.personaToPersonaFullDto(juego);
-    }
+
 }

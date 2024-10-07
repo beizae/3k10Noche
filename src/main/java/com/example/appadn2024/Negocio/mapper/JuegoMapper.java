@@ -30,8 +30,8 @@ import org.mapstruct.Mapper;
 public interface JuegoMapper {
 
 
-    JuegoResultadoDto personaToPersonaFullDto(Juego juego);
+    JuegoResultadoDto juegoToJuegoResultado(Juego juego);
+    Juego JuegoResultadoDtoToJuego(JuegoResultadoDto juegoResultadoDto);
 
-    Juego personaFullDtoToPersona(JuegoResultadoDto personaFullDto);
 
 }

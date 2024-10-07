@@ -92,7 +92,7 @@ select next value for persona_seq [90036-224]
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
 	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:220)
 	at jdk.proxy2/jdk.proxy2.$Proxy111.save(Unknown Source)
-	at com.example.appadn2024.Negocio.services.impl.JuegoService.crear(PersonaService.java:18)
+	at com.example.appadn2024.Negocio.services.impl.JuegoServiceImp.crear(PersonaService.java:18)
 	at com.example.appadn2024.Negocio.facade.impl.JuegoFacade.crear(PersonaFacade.java:24)
 	at com.example.appadn2024.presentation.rest.JuegoController.crear(PersonaController.java:30)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
